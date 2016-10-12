@@ -1,0 +1,956 @@
+INFO    2016-10-12 23:39:33,807  - Logger Started
+INFO    2016-10-12 23:39:33,814  - Config file loaded C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Files\Config.property
+INFO    2016-10-12 23:39:36,385  - Extent report started at path C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Report.html
+INFO    2016-10-12 23:39:39,233  - 
+
+INFO    2016-10-12 23:39:39,239  - MODULE UNDER EXECUTION [LoginValidation]
+INFO    2016-10-12 23:39:39,250  - Extent reporter test started [LV_TC01_LoginVerification]  Disscription [Sweety Login Test]
+INFO    2016-10-12 23:39:39,251  - Authour Assigned
+INFO    2016-10-12 23:39:39,251  - Moudle is assigne LoginValidation
+INFO    2016-10-12 23:39:39,253  - Child Test started [Iteration [1] .......LaunchBrowser]
+INFO    2016-10-12 23:39:46,079  - Chrome Browser launched
+INFO    2016-10-12 23:39:46,081  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:39:46,213  - Child test appended [com.relevantcodes.extentreports.ExtentTest@727eb8cb]
+INFO    2016-10-12 23:39:46,215  - Child Test started [Iteration [1] .......LaunchUrl]
+INFO    2016-10-12 23:39:58,107  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:39:58,108  - Child test appended [com.relevantcodes.extentreports.ExtentTest@1fb19a0]
+INFO    2016-10-12 23:39:58,109  - Child Test started [Iteration [1] .......UserLogin]
+INFO    2016-10-12 23:40:02,003  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5b67bb7e]
+INFO    2016-10-12 23:40:02,004  - Child Test started [Iteration [1] .......UserLogin]
+INFO    2016-10-12 23:40:06,515  - Child test appended [com.relevantcodes.extentreports.ExtentTest@f107c50]
+INFO    2016-10-12 23:40:06,515  - Child Test started [Iteration [1] .......UserLogin]
+INFO    2016-10-12 23:40:09,965  - Child test appended [com.relevantcodes.extentreports.ExtentTest@181e731e]
+INFO    2016-10-12 23:40:09,965  - Child Test started [Iteration [1] .......UserLogin]
+INFO    2016-10-12 23:40:15,763  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6d167f58]
+INFO    2016-10-12 23:40:15,764  - Child Test started [Iteration [1] .......QuitApp]
+INFO    2016-10-12 23:40:17,878  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:40:17,879  - Child test appended [com.relevantcodes.extentreports.ExtentTest@8c3619e]
+INFO    2016-10-12 23:40:17,880  - Child Test started [Iteration [2] .......LaunchBrowser]
+INFO    2016-10-12 23:41:32,792  - Mozila Browser launched
+INFO    2016-10-12 23:41:32,793  - info - [STEP:] Launch Browser,      [DETAILS:] Mozila is launched with all desired capabilities
+INFO    2016-10-12 23:41:32,796  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3a12c404]
+INFO    2016-10-12 23:41:32,797  - Child Test started [Iteration [2] .......LaunchUrl]
+INFO    2016-10-12 23:41:38,353  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:41:38,354  - Child test appended [com.relevantcodes.extentreports.ExtentTest@38831718]
+INFO    2016-10-12 23:41:38,355  - Child Test started [Iteration [2] .......UserLogin]
+INFO    2016-10-12 23:41:45,097  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6187d1f5]
+INFO    2016-10-12 23:41:45,098  - Child Test started [Iteration [2] .......UserLogin]
+INFO    2016-10-12 23:41:52,413  - Child test appended [com.relevantcodes.extentreports.ExtentTest@76884e4b]
+INFO    2016-10-12 23:41:52,413  - Child Test started [Iteration [2] .......UserLogin]
+ERROR   2016-10-12 23:41:52,919  - [STEP:] UserLogincould not be executed ,      [DETAILS:] org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.): To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-MTNL5EVE', ip: '192.168.119.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4cd527a1-064a-4fac-8482-a6ebf50fb97d
+*** Element info: {Using=id, value=user_email} | [Ljava.lang.StackTraceElement;@62727399<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_41_52_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_41_52_IST_2016.png' /></a>
+INFO    2016-10-12 23:41:52,920  - Child test appended [com.relevantcodes.extentreports.ExtentTest@130dca52]
+INFO    2016-10-12 23:41:52,920  - Child Test started [Iteration [2] .......UserLogin]
+ERROR   2016-10-12 23:41:53,304  - [STEP:] UserLogincould not be executed ,      [DETAILS:] org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.): To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LAPTOP-MTNL5EVE', ip: '192.168.119.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4cd527a1-064a-4fac-8482-a6ebf50fb97d
+*** Element info: {Using=id, value=user_email} | [Ljava.lang.StackTraceElement;@687ef2e0<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_41_53_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_41_53_IST_2016.png' /></a>
+INFO    2016-10-12 23:41:53,304  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3da05287]
+INFO    2016-10-12 23:41:53,304  - Child Test started [Iteration [2] .......QuitApp]
+INFO    2016-10-12 23:41:54,903  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:41:54,903  - Child test appended [com.relevantcodes.extentreports.ExtentTest@736caf7a]
+INFO    2016-10-12 23:41:54,908  - Test Ended !!com.relevantcodes.extentreports.ExtentTest@55dfcc6
+INFO    2016-10-12 23:41:54,909  - Extent reporter test started [LV_TC02_WorkFlow_default]  Disscription [Deafult Daily Report for 10/6/16]
+INFO    2016-10-12 23:41:54,909  - Authour Assigned
+INFO    2016-10-12 23:41:54,909  - Moudle is assigne LoginValidation
+INFO    2016-10-12 23:41:54,910  - Child Test started [Iteration [1] .......LaunchBrowser]
+INFO    2016-10-12 23:42:03,449  - Chrome Browser launched
+INFO    2016-10-12 23:42:03,449  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:42:03,452  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2a76840c]
+INFO    2016-10-12 23:42:03,452  - Child Test started [Iteration [1] .......LaunchAndLogin]
+INFO    2016-10-12 23:42:07,701  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:42:10,920  - Child test appended [com.relevantcodes.extentreports.ExtentTest@13f95696]
+INFO    2016-10-12 23:42:10,920  - Child Test started [Iteration [1] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-12 23:42:10,922  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:42:11,025  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:42:15,672  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:42:15,763  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:42:20,382  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:42:20,473  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:42:25,039  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:42:25,135  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:42:29,729  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:42:29,840  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:42:33,236  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6c45ee6e]
+INFO    2016-10-12 23:42:33,236  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:42:33,363  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:42:37,096  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:42:37,950  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:42 PM]
+INFO    2016-10-12 23:42:41,423  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:42:41,424  - Child test appended [com.relevantcodes.extentreports.ExtentTest@8692d67]
+INFO    2016-10-12 23:42:41,424  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:42:41,503  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:42:45,216  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:42:45,965  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:42 PM]
+INFO    2016-10-12 23:42:49,394  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:42:49,394  - Child test appended [com.relevantcodes.extentreports.ExtentTest@366c4480]
+INFO    2016-10-12 23:42:49,394  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:42:49,476  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:42:53,192  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:42:53,942  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:42 PM]
+INFO    2016-10-12 23:42:57,354  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:42:57,355  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3ecd267f]
+INFO    2016-10-12 23:42:57,355  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:42:57,437  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:43:01,161  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:43:01,969  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:43 PM]
+INFO    2016-10-12 23:43:05,372  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:43:05,373  - Child test appended [com.relevantcodes.extentreports.ExtentTest@68fa0ba8]
+INFO    2016-10-12 23:43:05,373  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:43:05,454  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:43:09,184  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:43:09,928  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:43 PM]
+INFO    2016-10-12 23:43:12,598  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:43:14,599  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5733f295]
+INFO    2016-10-12 23:43:14,600  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:43:14,679  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:43:17,309  - Child test appended [com.relevantcodes.extentreports.ExtentTest@14d14731]
+INFO    2016-10-12 23:43:17,310  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:43:17,389  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:43:19,953  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5d1659ea]
+INFO    2016-10-12 23:43:19,953  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:43:20,029  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:43:22,555  - Child test appended [com.relevantcodes.extentreports.ExtentTest@463b4ac8]
+INFO    2016-10-12 23:43:22,555  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:43:22,633  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:43:25,085  - Child test appended [com.relevantcodes.extentreports.ExtentTest@1522d8a0]
+INFO    2016-10-12 23:43:25,086  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:43:25,186  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:43:27,380  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:43:28,951  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-12
+INFO    2016-10-12 23:43:29,100  - info - [STEP:] Report Validation Min,      [DETAILS:] 5
+INFO    2016-10-12 23:43:29,143  - info - [STEP:] Report Validation Max,      [DETAILS:] 40
+INFO    2016-10-12 23:43:29,183  - info - [STEP:] Report Validation Avg,      [DETAILS:] 25
+INFO    2016-10-12 23:43:33,127  - info - [STEP:] Report Validation Entry 10/12/16 @ 11:42 PM,      [DETAILS:] Level 5
+INFO    2016-10-12 23:43:33,294  - Child test appended [com.relevantcodes.extentreports.ExtentTest@756cf158]
+INFO    2016-10-12 23:43:33,295  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:43:33,386  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:43:35,397  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:43:37,027  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-12
+INFO    2016-10-12 23:43:37,143  - info - [STEP:] Report Validation Min,      [DETAILS:] 5
+INFO    2016-10-12 23:43:37,182  - info - [STEP:] Report Validation Max,      [DETAILS:] 40
+INFO    2016-10-12 23:43:37,221  - info - [STEP:] Report Validation Avg,      [DETAILS:] 25
+INFO    2016-10-12 23:43:39,869  - info - [STEP:] Report Validation Entry 10/12/16 @ 11:42 PM,      [DETAILS:] Level 25
+INFO    2016-10-12 23:43:40,035  - Child test appended [com.relevantcodes.extentreports.ExtentTest@94f6bfb]
+INFO    2016-10-12 23:43:40,061  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:43:40,136  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:43:42,143  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:43:43,725  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-12
+INFO    2016-10-12 23:43:43,843  - info - [STEP:] Report Validation Min,      [DETAILS:] 5
+INFO    2016-10-12 23:43:43,882  - info - [STEP:] Report Validation Max,      [DETAILS:] 40
+INFO    2016-10-12 23:43:43,923  - info - [STEP:] Report Validation Avg,      [DETAILS:] 25
+INFO    2016-10-12 23:43:45,204  - info - [STEP:] Report Validation Entry 10/12/16 @ 11:42 PM,      [DETAILS:] Level 30
+INFO    2016-10-12 23:43:45,365  - Child test appended [com.relevantcodes.extentreports.ExtentTest@9d157ff]
+INFO    2016-10-12 23:43:45,365  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:43:45,445  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:43:47,453  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:43:49,030  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-12
+INFO    2016-10-12 23:43:49,150  - info - [STEP:] Report Validation Min,      [DETAILS:] 5
+INFO    2016-10-12 23:43:49,190  - info - [STEP:] Report Validation Max,      [DETAILS:] 40
+INFO    2016-10-12 23:43:49,230  - info - [STEP:] Report Validation Avg,      [DETAILS:] 25
+INFO    2016-10-12 23:43:49,230  - info - [STEP:] Report Validation Entry 10/12/16 @ 11:43 PM,      [DETAILS:] Level 40
+INFO    2016-10-12 23:43:49,393  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6b5176f2]
+INFO    2016-10-12 23:43:49,393  - Child Test started [Iteration [1] .......QuitApp]
+INFO    2016-10-12 23:43:51,632  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:43:51,633  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6e46d9f4]
+INFO    2016-10-12 23:43:51,633  - Child Test started [Iteration [2] .......LaunchBrowser]
+INFO    2016-10-12 23:43:55,921  - Chrome Browser launched
+INFO    2016-10-12 23:43:55,921  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:43:55,922  - Child test appended [com.relevantcodes.extentreports.ExtentTest@460f76a6]
+INFO    2016-10-12 23:43:55,922  - Child Test started [Iteration [2] .......LaunchAndLogin]
+INFO    2016-10-12 23:44:01,724  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:44:05,147  - Child test appended [com.relevantcodes.extentreports.ExtentTest@a486d78]
+INFO    2016-10-12 23:44:05,147  - Child Test started [Iteration [2] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-12 23:44:05,148  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:44:05,256  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:10,125  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:44:10,212  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:15,106  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:44:15,190  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:19,961  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:44:20,065  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:26,159  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:44:26,254  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:29,649  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2e5c7f0b]
+INFO    2016-10-12 23:44:29,649  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:44:29,727  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:33,497  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:44:34,609  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:55 AM]
+INFO    2016-10-12 23:44:38,093  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:44:38,094  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5aabbb29]
+INFO    2016-10-12 23:44:38,094  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:44:38,173  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:41,885  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:44:42,828  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:56 AM]
+INFO    2016-10-12 23:44:46,250  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:44:46,250  - Child test appended [com.relevantcodes.extentreports.ExtentTest@10b892d5]
+INFO    2016-10-12 23:44:46,250  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:44:46,334  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:50,133  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:44:51,089  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:46 AM]
+INFO    2016-10-12 23:44:54,491  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:44:54,491  - Child test appended [com.relevantcodes.extentreports.ExtentTest@681aad3b]
+INFO    2016-10-12 23:44:54,492  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:44:54,574  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:44:58,369  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:44:59,301  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:16 AM]
+INFO    2016-10-12 23:45:02,697  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:45:02,697  - Child test appended [com.relevantcodes.extentreports.ExtentTest@263f04ca]
+INFO    2016-10-12 23:45:02,697  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:45:02,777  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:45:06,575  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:45:07,511  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 9:20 AM]
+INFO    2016-10-12 23:45:10,211  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:45:12,213  - Child test appended [com.relevantcodes.extentreports.ExtentTest@70e29e14]
+INFO    2016-10-12 23:45:12,213  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:45:12,287  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:45:15,034  - Child test appended [com.relevantcodes.extentreports.ExtentTest@fac80]
+INFO    2016-10-12 23:45:15,034  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:45:15,110  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:45:17,777  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2db2cd5]
+INFO    2016-10-12 23:45:17,777  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:45:17,853  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:45:20,580  - Child test appended [com.relevantcodes.extentreports.ExtentTest@1e11bc55]
+INFO    2016-10-12 23:45:20,580  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:45:20,657  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:45:23,473  - Child test appended [com.relevantcodes.extentreports.ExtentTest@41382722]
+INFO    2016-10-12 23:45:23,473  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:45:23,572  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:45:25,578  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:45:32,422  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-11
+INFO    2016-10-12 23:45:32,538  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:45:32,577  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:45:32,619  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:45:33,972  - info - [STEP:] Report Validation Entry 10/11/16 @ 11:55 AM,      [DETAILS:] Level 15
+INFO    2016-10-12 23:45:34,148  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7728643a]
+INFO    2016-10-12 23:45:34,148  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:45:34,228  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:45:36,233  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:45:43,065  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-11
+INFO    2016-10-12 23:45:43,179  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:45:43,218  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:45:43,258  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:45:43,258  - info - [STEP:] Report Validation Entry 10/11/16 @ 11:56 AM,      [DETAILS:] Level 25
+INFO    2016-10-12 23:45:43,456  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5af5def9]
+INFO    2016-10-12 23:45:43,456  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:45:43,536  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:45:45,542  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:45:52,441  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-11
+INFO    2016-10-12 23:45:52,555  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:45:52,595  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:45:52,634  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:45:55,258  - info - [STEP:] Report Validation Entry 10/11/16 @ 11:46 AM,      [DETAILS:] Level 35
+INFO    2016-10-12 23:45:55,418  - Child test appended [com.relevantcodes.extentreports.ExtentTest@159e366]
+INFO    2016-10-12 23:45:55,419  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:45:55,497  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:45:57,504  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:46:04,343  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-11
+INFO    2016-10-12 23:46:04,459  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:46:04,498  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:46:04,538  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:46:08,440  - info - [STEP:] Report Validation Entry 10/11/16 @ 11:16 AM,      [DETAILS:] Level 45
+INFO    2016-10-12 23:46:08,599  - Child test appended [com.relevantcodes.extentreports.ExtentTest@63034ed1]
+INFO    2016-10-12 23:46:08,600  - Child Test started [Iteration [2] .......QuitApp]
+INFO    2016-10-12 23:46:10,790  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:46:10,791  - Child test appended [com.relevantcodes.extentreports.ExtentTest@53cdecf6]
+INFO    2016-10-12 23:46:10,791  - Child Test started [Iteration [3] .......LaunchBrowser]
+INFO    2016-10-12 23:46:15,065  - Chrome Browser launched
+INFO    2016-10-12 23:46:15,065  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:46:15,066  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2392212b]
+INFO    2016-10-12 23:46:15,067  - Child Test started [Iteration [3] .......LaunchAndLogin]
+INFO    2016-10-12 23:46:19,323  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:46:22,464  - Child test appended [com.relevantcodes.extentreports.ExtentTest@18ca3c62]
+INFO    2016-10-12 23:46:22,465  - Child Test started [Iteration [3] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-12 23:46:22,466  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:46:22,569  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:46:27,582  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:46:27,676  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:46:32,637  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:46:32,772  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:46:37,712  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:46:37,823  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:46:42,853  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:46:42,942  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:46:46,345  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2516fc68]
+INFO    2016-10-12 23:46:46,345  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:46:46,423  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:46:50,151  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:46:51,162  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:55 AM]
+INFO    2016-10-12 23:46:54,674  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:46:54,675  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2c383e33]
+INFO    2016-10-12 23:46:54,675  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:46:54,756  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:46:58,550  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:46:59,517  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:15 AM]
+INFO    2016-10-12 23:47:02,922  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:47:02,922  - Child test appended [com.relevantcodes.extentreports.ExtentTest@42d236fb]
+INFO    2016-10-12 23:47:02,922  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:47:03,002  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:47:06,713  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:47:07,637  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:50 AM]
+INFO    2016-10-12 23:47:11,036  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:47:11,036  - Child test appended [com.relevantcodes.extentreports.ExtentTest@68105edc]
+INFO    2016-10-12 23:47:11,036  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:47:11,116  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:47:14,833  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:47:15,832  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:20 AM]
+INFO    2016-10-12 23:47:19,234  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:47:19,235  - Child test appended [com.relevantcodes.extentreports.ExtentTest@1b812421]
+INFO    2016-10-12 23:47:19,235  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:47:19,319  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:47:23,038  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:47:23,964  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:40 AM]
+INFO    2016-10-12 23:47:26,653  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:47:28,655  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6b04acb2]
+INFO    2016-10-12 23:47:28,655  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-12 23:47:28,731  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:47:31,661  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2e647e59]
+INFO    2016-10-12 23:47:31,661  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-12 23:47:31,741  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:47:34,725  - Child test appended [com.relevantcodes.extentreports.ExtentTest@294bdeb4]
+INFO    2016-10-12 23:47:34,725  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-12 23:47:34,802  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:47:37,679  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7af1cd63]
+INFO    2016-10-12 23:47:37,679  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-12 23:47:37,757  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:47:40,665  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7a26928a]
+INFO    2016-10-12 23:47:40,666  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-12 23:47:40,779  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:47:42,785  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:47:49,722  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:47:49,759  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:47:49,797  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:47:54,886  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-09
+INFO    2016-10-12 23:47:55,005  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:47:55,044  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:47:55,083  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:47:55,083  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:55 AM,      [DETAILS:] Level 15
+INFO    2016-10-12 23:47:55,246  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6ecd665]
+INFO    2016-10-12 23:47:55,246  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-12 23:47:55,350  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:47:57,355  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:48:04,332  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:48:04,381  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:48:04,432  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:48:09,469  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-09
+INFO    2016-10-12 23:48:09,586  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:48:09,626  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:48:09,665  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:48:13,639  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:15 AM,      [DETAILS:] Level 25
+INFO    2016-10-12 23:48:13,799  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7c211fd0]
+INFO    2016-10-12 23:48:13,799  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-12 23:48:13,905  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:48:15,909  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:48:22,920  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:48:22,957  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:48:22,996  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:48:28,029  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-09
+INFO    2016-10-12 23:48:28,141  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:48:28,179  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:48:28,217  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:48:29,525  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:50 AM,      [DETAILS:] Level 35
+INFO    2016-10-12 23:48:29,683  - Child test appended [com.relevantcodes.extentreports.ExtentTest@62ddd21b]
+INFO    2016-10-12 23:48:29,684  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-12 23:48:29,761  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:48:31,767  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:48:38,776  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:48:38,814  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:48:38,852  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:48:43,912  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-09
+INFO    2016-10-12 23:48:44,025  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:48:44,063  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:48:44,102  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:48:46,720  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:20 AM,      [DETAILS:] Level 45
+INFO    2016-10-12 23:48:46,880  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5c92166b]
+INFO    2016-10-12 23:48:46,880  - Child Test started [Iteration [3] .......QuitApp]
+INFO    2016-10-12 23:48:48,209  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:48:48,209  - Child test appended [com.relevantcodes.extentreports.ExtentTest@b9dfc5a]
+INFO    2016-10-12 23:48:48,211  - Test Ended !!com.relevantcodes.extentreports.ExtentTest@2787de58
+INFO    2016-10-12 23:48:48,211  - Extent reporter test started [LV_TC03_WorkFlow_TodaysReport]  Disscription [Verify entry and validation for todays report]
+INFO    2016-10-12 23:48:48,211  - Authour Assigned
+INFO    2016-10-12 23:48:48,211  - Moudle is assigne LoginValidation
+INFO    2016-10-12 23:48:48,212  - Child Test started [Iteration [1] .......LaunchBrowser]
+INFO    2016-10-12 23:48:52,484  - Chrome Browser launched
+INFO    2016-10-12 23:48:52,484  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:48:52,486  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5116ac09]
+INFO    2016-10-12 23:48:52,486  - Child Test started [Iteration [1] .......LaunchAndLogin]
+INFO    2016-10-12 23:48:56,649  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:48:59,831  - Child test appended [com.relevantcodes.extentreports.ExtentTest@878537d]
+INFO    2016-10-12 23:48:59,832  - Child Test started [Iteration [1] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-12 23:48:59,833  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:48:59,938  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:04,571  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:49:04,658  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:09,224  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:49:09,312  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:13,925  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:49:14,068  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:18,658  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:49:18,772  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:22,129  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5ac7aa18]
+INFO    2016-10-12 23:49:22,129  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:49:22,208  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:25,935  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:49:26,735  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:49 PM]
+INFO    2016-10-12 23:49:30,201  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:49:30,202  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7435a578]
+INFO    2016-10-12 23:49:30,202  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:49:30,280  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:33,989  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:49:34,699  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:49 PM]
+INFO    2016-10-12 23:49:38,119  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:49:38,119  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6124287a]
+INFO    2016-10-12 23:49:38,119  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:49:38,203  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:41,917  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:49:42,639  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:49 PM]
+INFO    2016-10-12 23:49:46,075  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:49:46,075  - Child test appended [com.relevantcodes.extentreports.ExtentTest@185f7840]
+INFO    2016-10-12 23:49:46,075  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:49:46,153  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:49,867  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:49:50,580  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:49 PM]
+INFO    2016-10-12 23:49:53,970  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:49:53,970  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7573e12f]
+INFO    2016-10-12 23:49:53,970  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:49:54,046  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:49:57,764  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:49:58,468  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:49 PM]
+INFO    2016-10-12 23:50:01,158  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:50:03,159  - Child test appended [com.relevantcodes.extentreports.ExtentTest@4349754]
+INFO    2016-10-12 23:50:03,159  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:50:03,235  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:50:05,874  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3d36dff4]
+INFO    2016-10-12 23:50:05,874  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:50:05,949  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:50:08,497  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3c0fbd3a]
+INFO    2016-10-12 23:50:08,497  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:50:08,572  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:50:11,110  - Child test appended [com.relevantcodes.extentreports.ExtentTest@60e21209]
+INFO    2016-10-12 23:50:11,110  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:50:11,190  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:50:13,641  - Child test appended [com.relevantcodes.extentreports.ExtentTest@b8a7e43]
+INFO    2016-10-12 23:50:13,641  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:50:13,743  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:50:16,069  - info - [STEP:] Open Report Daily,      [DETAILS:]  Report is open
+ERROR   2016-10-12 23:50:18,330  - [STEP:] Daily Report as of 2016-10-12,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_50_18_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_50_18_IST_2016.png' /></a>
+INFO    2016-10-12 23:50:18,330  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2301b75]
+INFO    2016-10-12 23:50:18,330  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:50:18,431  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:50:20,704  - info - [STEP:] Open Report Daily,      [DETAILS:]  Report is open
+ERROR   2016-10-12 23:50:22,953  - [STEP:] Daily Report as of 2016-10-12,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_50_22_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_50_22_IST_2016.png' /></a>
+INFO    2016-10-12 23:50:22,953  - Child test appended [com.relevantcodes.extentreports.ExtentTest@27b000f7]
+INFO    2016-10-12 23:50:22,953  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:50:23,035  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:50:25,282  - info - [STEP:] Open Report Daily,      [DETAILS:]  Report is open
+ERROR   2016-10-12 23:50:27,523  - [STEP:] Daily Report as of 2016-10-12,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_50_27_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_50_27_IST_2016.png' /></a>
+INFO    2016-10-12 23:50:27,523  - Child test appended [com.relevantcodes.extentreports.ExtentTest@4f8b4bd0]
+INFO    2016-10-12 23:50:27,523  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:50:27,603  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:50:29,847  - info - [STEP:] Open Report Daily,      [DETAILS:]  Report is open
+ERROR   2016-10-12 23:50:32,090  - [STEP:] Daily Report as of 2016-10-12,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_50_31_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_50_31_IST_2016.png' /></a>
+INFO    2016-10-12 23:50:32,090  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7d37f1c]
+INFO    2016-10-12 23:50:32,090  - Child Test started [Iteration [1] .......QuitApp]
+INFO    2016-10-12 23:50:34,275  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:50:34,276  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3047254d]
+INFO    2016-10-12 23:50:34,276  - Child Test started [Iteration [2] .......LaunchBrowser]
+INFO    2016-10-12 23:50:38,550  - Chrome Browser launched
+INFO    2016-10-12 23:50:38,550  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:50:38,551  - Child test appended [com.relevantcodes.extentreports.ExtentTest@47547132]
+INFO    2016-10-12 23:50:38,551  - Child Test started [Iteration [2] .......LaunchAndLogin]
+INFO    2016-10-12 23:50:43,032  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:50:46,189  - Child test appended [com.relevantcodes.extentreports.ExtentTest@51d143a1]
+INFO    2016-10-12 23:50:46,190  - Child Test started [Iteration [2] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-12 23:50:46,190  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:50:46,295  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:50:51,108  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:50:51,203  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:50:55,977  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:50:56,069  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:00,886  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:51:00,999  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:05,813  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:51:05,903  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:09,276  - Child test appended [com.relevantcodes.extentreports.ExtentTest@67440de6]
+INFO    2016-10-12 23:51:09,277  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:51:09,350  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:13,088  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:51:14,099  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:55 AM]
+INFO    2016-10-12 23:51:17,577  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:51:17,577  - Child test appended [com.relevantcodes.extentreports.ExtentTest@23811a09]
+INFO    2016-10-12 23:51:17,577  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:51:17,654  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:21,363  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:51:22,279  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:56 AM]
+INFO    2016-10-12 23:51:25,685  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:51:25,685  - Child test appended [com.relevantcodes.extentreports.ExtentTest@67c119b7]
+INFO    2016-10-12 23:51:25,685  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:51:25,765  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:29,561  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:51:30,472  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:46 AM]
+INFO    2016-10-12 23:51:33,930  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:51:33,930  - Child test appended [com.relevantcodes.extentreports.ExtentTest@61f80d55]
+INFO    2016-10-12 23:51:33,930  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:51:34,006  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:37,816  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:51:38,724  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:16 AM]
+INFO    2016-10-12 23:51:42,125  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:51:42,125  - Child test appended [com.relevantcodes.extentreports.ExtentTest@418c020b]
+INFO    2016-10-12 23:51:42,125  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:51:42,202  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:45,995  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:51:46,922  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 9:20 AM]
+INFO    2016-10-12 23:51:49,593  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:51,593  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5f18f9d2]
+INFO    2016-10-12 23:51:51,593  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:51:51,669  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:54,378  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3533df16]
+INFO    2016-10-12 23:51:54,378  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:51:54,456  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:57,128  - Child test appended [com.relevantcodes.extentreports.ExtentTest@c1fa7d4]
+INFO    2016-10-12 23:51:57,128  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:51:57,204  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:51:59,925  - Child test appended [com.relevantcodes.extentreports.ExtentTest@64b7225f]
+INFO    2016-10-12 23:51:59,925  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:51:59,999  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:52:02,816  - Child test appended [com.relevantcodes.extentreports.ExtentTest@552ed807]
+INFO    2016-10-12 23:52:02,817  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:52:02,915  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:52:05,178  - info - [STEP:] Open Report Daily,      [DETAILS:]  Report is open
+ERROR   2016-10-12 23:52:07,416  - [STEP:] Daily Report as of 2016-10-12,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_52_07_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_52_07_IST_2016.png' /></a>
+INFO    2016-10-12 23:52:07,417  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6d5037a9]
+INFO    2016-10-12 23:52:07,417  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:52:07,492  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:52:09,739  - info - [STEP:] Open Report Daily,      [DETAILS:]  Report is open
+ERROR   2016-10-12 23:52:11,987  - [STEP:] Daily Report as of 2016-10-12,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_52_11_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_52_11_IST_2016.png' /></a>
+INFO    2016-10-12 23:52:11,987  - Child test appended [com.relevantcodes.extentreports.ExtentTest@243f003c]
+INFO    2016-10-12 23:52:11,987  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:52:12,093  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:52:14,335  - info - [STEP:] Open Report Daily,      [DETAILS:]  Report is open
+ERROR   2016-10-12 23:52:16,583  - [STEP:] Daily Report as of 2016-10-12,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_52_16_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_52_16_IST_2016.png' /></a>
+INFO    2016-10-12 23:52:16,584  - Child test appended [com.relevantcodes.extentreports.ExtentTest@95bb2a2]
+INFO    2016-10-12 23:52:16,584  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:52:16,659  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:52:18,902  - info - [STEP:] Open Report Daily,      [DETAILS:]  Report is open
+ERROR   2016-10-12 23:52:21,148  - [STEP:] Daily Report as of 2016-10-12,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_52_20_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Wed_Oct_12_23_52_20_IST_2016.png' /></a>
+INFO    2016-10-12 23:52:21,148  - Child test appended [com.relevantcodes.extentreports.ExtentTest@63bde6c2]
+INFO    2016-10-12 23:52:21,148  - Child Test started [Iteration [2] .......QuitApp]
+INFO    2016-10-12 23:52:22,459  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:52:22,460  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5a00eb1e]
+INFO    2016-10-12 23:52:22,460  - Child Test started [Iteration [3] .......LaunchBrowser]
+INFO    2016-10-12 23:52:26,736  - Chrome Browser launched
+INFO    2016-10-12 23:52:26,737  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:52:26,738  - Child test appended [com.relevantcodes.extentreports.ExtentTest@62a4417]
+INFO    2016-10-12 23:52:26,738  - Child Test started [Iteration [3] .......LaunchAndLogin]
+INFO    2016-10-12 23:52:32,256  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:52:35,501  - Child test appended [com.relevantcodes.extentreports.ExtentTest@39e43310]
+INFO    2016-10-12 23:52:35,502  - Child Test started [Iteration [3] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-12 23:52:35,502  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:52:35,609  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:52:40,625  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:52:40,713  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:52:45,737  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:52:45,868  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:52:50,839  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:52:50,947  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:52:56,428  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-12 23:52:56,519  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:52:59,900  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6c575325]
+INFO    2016-10-12 23:52:59,900  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:52:59,974  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:03,698  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:53:04,709  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:55 AM]
+INFO    2016-10-12 23:53:08,179  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:53:08,180  - Child test appended [com.relevantcodes.extentreports.ExtentTest@255e5e2e]
+INFO    2016-10-12 23:53:08,180  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:53:08,256  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:12,054  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:53:12,965  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:15 AM]
+INFO    2016-10-12 23:53:16,377  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:53:16,377  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5c60b0a0]
+INFO    2016-10-12 23:53:16,377  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:53:16,456  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:20,252  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:53:21,165  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:50 AM]
+INFO    2016-10-12 23:53:24,559  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:53:24,559  - Child test appended [com.relevantcodes.extentreports.ExtentTest@4e17913b]
+INFO    2016-10-12 23:53:24,559  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:53:24,636  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:28,433  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:53:29,375  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:20 AM]
+INFO    2016-10-12 23:53:32,776  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:53:32,776  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3964d79]
+INFO    2016-10-12 23:53:32,776  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-12 23:53:32,850  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:36,649  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:53:37,557  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:40 AM]
+INFO    2016-10-12 23:53:40,241  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:42,242  - Child test appended [com.relevantcodes.extentreports.ExtentTest@46a953cf]
+INFO    2016-10-12 23:53:42,242  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-12 23:53:42,316  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:45,239  - Child test appended [com.relevantcodes.extentreports.ExtentTest@33a3c44a]
+INFO    2016-10-12 23:53:45,240  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-12 23:53:45,315  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:48,289  - Child test appended [com.relevantcodes.extentreports.ExtentTest@58496c97]
+INFO    2016-10-12 23:53:48,289  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-12 23:53:48,364  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:51,241  - Child test appended [com.relevantcodes.extentreports.ExtentTest@e8ea697]
+INFO    2016-10-12 23:53:51,242  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-12 23:53:51,316  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:53:54,218  - Child test appended [com.relevantcodes.extentreports.ExtentTest@64968732]
+INFO    2016-10-12 23:53:54,219  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-12 23:53:54,319  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:53:56,322  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:53:58,016  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:53:58,054  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:53:58,092  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:03,316  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:03,355  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:03,393  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:08,428  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-09
+INFO    2016-10-12 23:54:08,543  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:08,581  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:08,620  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:08,620  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:55 AM,      [DETAILS:] Level 15
+INFO    2016-10-12 23:54:08,782  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3ee69ad8]
+INFO    2016-10-12 23:54:08,783  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-12 23:54:08,859  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:54:10,871  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:54:12,550  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:12,589  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:12,629  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:17,757  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:17,795  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:17,832  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:22,948  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-09
+INFO    2016-10-12 23:54:23,059  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:23,097  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:23,135  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:27,067  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:15 AM,      [DETAILS:] Level 25
+INFO    2016-10-12 23:54:27,287  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2ec3633f]
+INFO    2016-10-12 23:54:27,287  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-12 23:54:27,381  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:54:29,384  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:54:31,015  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:31,052  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:31,090  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:36,282  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:36,321  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:36,360  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:41,464  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-09
+INFO    2016-10-12 23:54:41,578  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:41,616  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:41,656  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:42,970  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:50 AM,      [DETAILS:] Level 35
+INFO    2016-10-12 23:54:43,135  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2412a42b]
+INFO    2016-10-12 23:54:43,135  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-12 23:54:43,220  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:54:45,225  - info - [STEP:] Report Validation,      [DETAILS:] Report Page default report will be validated, Roport Name is [Daily Report as of 2016-10-12]
+INFO    2016-10-12 23:54:46,859  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:46,897  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:46,933  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:52,124  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:52,162  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:52,201  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:54:57,309  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-10-09
+INFO    2016-10-12 23:54:57,427  - info - [STEP:] Report Validation Min,      [DETAILS:] 15
+INFO    2016-10-12 23:54:57,468  - info - [STEP:] Report Validation Max,      [DETAILS:] 45
+INFO    2016-10-12 23:54:57,509  - info - [STEP:] Report Validation Avg,      [DETAILS:] 30
+INFO    2016-10-12 23:55:00,150  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:20 AM,      [DETAILS:] Level 45
+INFO    2016-10-12 23:55:00,311  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2b2f5fcf]
+INFO    2016-10-12 23:55:00,311  - Child Test started [Iteration [3] .......QuitApp]
+INFO    2016-10-12 23:55:02,538  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:55:02,538  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7efd28bd]
+INFO    2016-10-12 23:55:02,539  - Test Ended !!com.relevantcodes.extentreports.ExtentTest@672b72ba
+INFO    2016-10-12 23:55:02,540  - Extent reporter test started [LV_TC04_WorkFlow_MonthlyReport]  Disscription [Verify Default daily date data]
+INFO    2016-10-12 23:55:02,540  - Authour Assigned
+INFO    2016-10-12 23:55:02,540  - Moudle is assigne LoginValidation
+INFO    2016-10-12 23:55:02,540  - Child Test started [Iteration [1] .......LaunchBrowser]
+INFO    2016-10-12 23:55:06,811  - Chrome Browser launched
+INFO    2016-10-12 23:55:06,812  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:55:06,813  - Child test appended [com.relevantcodes.extentreports.ExtentTest@4068102e]
+INFO    2016-10-12 23:55:06,813  - Child Test started [Iteration [1] .......LaunchAndLogin]
+INFO    2016-10-12 23:55:14,879  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:55:18,313  - Child test appended [com.relevantcodes.extentreports.ExtentTest@673919a7]
+INFO    2016-10-12 23:55:18,313  - Child Test started [Iteration [1] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-12 23:55:18,314  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:55:18,416  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:55:23,041  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:55:23,130  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:55:27,739  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:55:27,829  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:55:32,458  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:55:32,579  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:55:37,193  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/12/16 , Value 
+INFO    2016-10-12 23:55:37,329  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:55:40,688  - Child test appended [com.relevantcodes.extentreports.ExtentTest@508a65bf]
+INFO    2016-10-12 23:55:40,688  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:55:40,763  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:55:44,493  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:55:45,282  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:55 PM]
+INFO    2016-10-12 23:55:48,746  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:55:48,746  - Child test appended [com.relevantcodes.extentreports.ExtentTest@21bd20ee]
+INFO    2016-10-12 23:55:48,746  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:55:48,823  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:55:52,532  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:55:53,244  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:55 PM]
+INFO    2016-10-12 23:55:56,651  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:55:56,651  - Child test appended [com.relevantcodes.extentreports.ExtentTest@654c7d2d]
+INFO    2016-10-12 23:55:56,651  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:55:56,727  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:56:00,441  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:56:01,215  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:56 PM]
+INFO    2016-10-12 23:56:04,654  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:56:04,654  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2924f1d8]
+INFO    2016-10-12 23:56:04,654  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:56:04,733  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:56:08,474  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:56:09,273  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:56 PM]
+INFO    2016-10-12 23:56:12,743  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:56:12,743  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2b680207]
+INFO    2016-10-12 23:56:12,743  - Child Test started [Iteration [1] .......addNewEntry]
+INFO    2016-10-12 23:56:12,844  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:56:16,570  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:56:17,264  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/12/16 @ 11:56 PM]
+INFO    2016-10-12 23:56:19,961  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:56:21,962  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5e7c141d]
+INFO    2016-10-12 23:56:21,962  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:56:22,036  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:56:24,671  - Child test appended [com.relevantcodes.extentreports.ExtentTest@4e1a46fb]
+INFO    2016-10-12 23:56:24,671  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:56:24,744  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:56:27,280  - Child test appended [com.relevantcodes.extentreports.ExtentTest@15b642b9]
+INFO    2016-10-12 23:56:27,281  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:56:27,357  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:56:29,843  - Child test appended [com.relevantcodes.extentreports.ExtentTest@411c6d44]
+INFO    2016-10-12 23:56:29,843  - Child Test started [Iteration [1] .......validateRecentEntries]
+INFO    2016-10-12 23:56:29,919  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:56:32,356  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7b948f3e]
+INFO    2016-10-12 23:56:32,356  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:56:32,456  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:56:34,745  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-12 23:56:38,312  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-12 23:56:42,483  - info - [STEP:] Report Validation Entry 10/12/16 @ 11:55 PM,      [DETAILS:] Level 15
+INFO    2016-10-12 23:56:42,653  - Child test appended [com.relevantcodes.extentreports.ExtentTest@ccf91df]
+INFO    2016-10-12 23:56:42,654  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:56:42,755  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:56:45,037  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-12 23:56:48,587  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-12 23:56:51,422  - info - [STEP:] Report Validation Entry 10/12/16 @ 11:55 PM,      [DETAILS:] Level 25
+INFO    2016-10-12 23:56:51,586  - Child test appended [com.relevantcodes.extentreports.ExtentTest@38b8b6c0]
+INFO    2016-10-12 23:56:51,587  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:56:51,671  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:56:53,957  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-12 23:56:57,507  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-12 23:56:59,058  - info - [STEP:] Report Validation Entry 10/12/16 @ 11:56 PM,      [DETAILS:] Level 35
+INFO    2016-10-12 23:56:59,219  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3b27b497]
+INFO    2016-10-12 23:56:59,219  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-12 23:56:59,298  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:57:01,577  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-12 23:57:05,117  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-12 23:57:05,358  - info - [STEP:] Report Validation Entry 10/12/16 @ 11:56 PM,      [DETAILS:] Level 45
+INFO    2016-10-12 23:57:05,528  - Child test appended [com.relevantcodes.extentreports.ExtentTest@37b52340]
+INFO    2016-10-12 23:57:05,528  - Child Test started [Iteration [1] .......QuitApp]
+INFO    2016-10-12 23:57:07,975  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-12 23:57:07,976  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7e5843db]
+INFO    2016-10-12 23:57:07,976  - Child Test started [Iteration [2] .......LaunchBrowser]
+INFO    2016-10-12 23:57:12,279  - Chrome Browser launched
+INFO    2016-10-12 23:57:12,279  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-12 23:57:12,280  - Child test appended [com.relevantcodes.extentreports.ExtentTest@7a8b9166]
+INFO    2016-10-12 23:57:12,280  - Child Test started [Iteration [2] .......LaunchAndLogin]
+INFO    2016-10-12 23:57:16,465  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-12 23:57:19,849  - Child test appended [com.relevantcodes.extentreports.ExtentTest@e4e1ef5]
+INFO    2016-10-12 23:57:19,850  - Child Test started [Iteration [2] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-12 23:57:19,850  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:57:19,953  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:57:25,022  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:57:25,114  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:57:29,893  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:57:29,979  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:57:34,775  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:57:34,881  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:57:39,631  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/11/16 , Value 
+INFO    2016-10-12 23:57:39,717  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:57:43,079  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3e67f5f2]
+INFO    2016-10-12 23:57:43,079  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:57:43,154  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:57:46,883  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:57:47,901  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:55 AM]
+INFO    2016-10-12 23:57:51,397  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:57:51,397  - Child test appended [com.relevantcodes.extentreports.ExtentTest@75a0c890]
+INFO    2016-10-12 23:57:51,397  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:57:51,476  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:57:55,184  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:57:56,097  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:56 AM]
+INFO    2016-10-12 23:57:59,504  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:57:59,505  - Child test appended [com.relevantcodes.extentreports.ExtentTest@216e9ca3]
+INFO    2016-10-12 23:57:59,505  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:57:59,587  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:58:03,386  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:58:04,296  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:46 AM]
+INFO    2016-10-12 23:58:07,712  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:58:07,712  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3d64c581]
+INFO    2016-10-12 23:58:07,712  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:58:07,789  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:58:11,596  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:58:12,566  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 11:16 AM]
+INFO    2016-10-12 23:58:16,038  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-12 23:58:16,038  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6f76c2cc]
+INFO    2016-10-12 23:58:16,039  - Child Test started [Iteration [2] .......addNewEntry]
+INFO    2016-10-12 23:58:16,119  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:58:19,948  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-12 23:58:20,951  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/11/16 @ 9:20 AM]
+INFO    2016-10-12 23:58:23,712  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:58:25,714  - Child test appended [com.relevantcodes.extentreports.ExtentTest@50f097b5]
+INFO    2016-10-12 23:58:25,714  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:58:25,792  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:58:28,510  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2d5ef498]
+INFO    2016-10-12 23:58:28,510  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:58:28,585  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:58:31,222  - Child test appended [com.relevantcodes.extentreports.ExtentTest@76464795]
+INFO    2016-10-12 23:58:31,222  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:58:31,297  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:58:34,025  - Child test appended [com.relevantcodes.extentreports.ExtentTest@f324455]
+INFO    2016-10-12 23:58:34,025  - Child Test started [Iteration [2] .......validateRecentEntries]
+INFO    2016-10-12 23:58:34,101  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-12 23:58:36,978  - Child test appended [com.relevantcodes.extentreports.ExtentTest@43e065f2]
+INFO    2016-10-12 23:58:36,978  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:58:37,082  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:58:39,378  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-12 23:58:42,921  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-12 23:59:06,864  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6f044c58]
+INFO    2016-10-12 23:59:06,865  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:59:06,971  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:59:09,264  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-12 23:59:12,808  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-12 23:59:18,248  - info - [STEP:] Report Validation Entry 10/11/16 @ 11:56 AM,      [DETAILS:] Level 25
+INFO    2016-10-12 23:59:18,413  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5ceecfee]
+INFO    2016-10-12 23:59:18,413  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:59:18,490  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:59:20,773  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-12 23:59:24,327  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-12 23:59:32,328  - info - [STEP:] Report Validation Entry 10/11/16 @ 11:46 AM,      [DETAILS:] Level 35
+INFO    2016-10-12 23:59:32,486  - Child test appended [com.relevantcodes.extentreports.ExtentTest@29b40b3]
+INFO    2016-10-12 23:59:32,486  - Child Test started [Iteration [2] .......validateReport]
+INFO    2016-10-12 23:59:32,563  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-12 23:59:34,846  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-12 23:59:38,354  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-13 00:00:02,179  - Child test appended [com.relevantcodes.extentreports.ExtentTest@1e60b459]
+INFO    2016-10-13 00:00:02,180  - Child Test started [Iteration [2] .......QuitApp]
+INFO    2016-10-13 00:00:04,393  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-13 00:00:04,394  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5b7aa898]
+INFO    2016-10-13 00:00:04,394  - Child Test started [Iteration [3] .......LaunchBrowser]
+INFO    2016-10-13 00:00:08,660  - Chrome Browser launched
+INFO    2016-10-13 00:00:08,660  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-13 00:00:08,661  - Child test appended [com.relevantcodes.extentreports.ExtentTest@254449bb]
+INFO    2016-10-13 00:00:08,661  - Child Test started [Iteration [3] .......LaunchAndLogin]
+INFO    2016-10-13 00:00:13,466  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-13 00:00:16,623  - Child test appended [com.relevantcodes.extentreports.ExtentTest@1697f2b3]
+INFO    2016-10-13 00:00:16,624  - Child Test started [Iteration [3] .......delete_RecentEntries_LevelPage]
+INFO    2016-10-13 00:00:16,624  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-13 00:00:16,723  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:00:21,739  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-13 00:00:21,829  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:00:26,815  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-13 00:00:26,949  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:00:31,928  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-13 00:00:32,034  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:00:37,031  - info - [STEP:] Date to delete is ,      [DETAILS:] 10/9/16 , Value 
+INFO    2016-10-13 00:00:37,116  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:00:40,481  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2e86807a]
+INFO    2016-10-13 00:00:40,481  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-13 00:00:40,555  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:00:44,277  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-13 00:00:45,273  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:55 AM]
+INFO    2016-10-13 00:00:48,748  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-13 00:00:48,748  - Child test appended [com.relevantcodes.extentreports.ExtentTest@67774e29]
+INFO    2016-10-13 00:00:48,748  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-13 00:00:48,826  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:00:52,626  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-13 00:00:53,546  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:15 AM]
+INFO    2016-10-13 00:00:56,993  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-13 00:00:56,993  - Child test appended [com.relevantcodes.extentreports.ExtentTest@518ddd3b]
+INFO    2016-10-13 00:00:56,993  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-13 00:00:57,071  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:01:00,786  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-13 00:01:01,713  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:50 AM]
+INFO    2016-10-13 00:01:05,129  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-13 00:01:05,129  - Child test appended [com.relevantcodes.extentreports.ExtentTest@a83495d]
+INFO    2016-10-13 00:01:05,129  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-13 00:01:05,205  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:01:08,917  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-13 00:01:09,848  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:20 AM]
+INFO    2016-10-13 00:01:13,261  - info - [STEP:] Error message error,      [DETAILS:] Error message object not Detected
+INFO    2016-10-13 00:01:13,261  - Child test appended [com.relevantcodes.extentreports.ExtentTest@5f1483fd]
+INFO    2016-10-13 00:01:13,261  - Child Test started [Iteration [3] .......addNewEntry]
+INFO    2016-10-13 00:01:13,334  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:01:17,135  - info - [STEP:] Add new Entry,      [DETAILS:] Add New Button is CLICKED
+INFO    2016-10-13 00:01:18,035  - info - [STEP:] BPS_SetTestData [DateAndTime],      [DETAILS:] Is set to [10/9/16 @ 11:40 AM]
+INFO    2016-10-13 00:01:20,688  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:01:22,688  - Child test appended [com.relevantcodes.extentreports.ExtentTest@6d0be7ab]
+INFO    2016-10-13 00:01:22,688  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-13 00:01:22,761  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:01:25,598  - Child test appended [com.relevantcodes.extentreports.ExtentTest@63300c4b]
+INFO    2016-10-13 00:01:25,598  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-13 00:01:25,672  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:01:28,632  - Child test appended [com.relevantcodes.extentreports.ExtentTest@d675f9f]
+INFO    2016-10-13 00:01:28,632  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-13 00:01:28,707  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:01:31,576  - Child test appended [com.relevantcodes.extentreports.ExtentTest@76544c0a]
+INFO    2016-10-13 00:01:31,577  - Child Test started [Iteration [3] .......validateRecentEntries]
+INFO    2016-10-13 00:01:31,677  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Levels] is CLICKED
+INFO    2016-10-13 00:01:34,606  - Child test appended [com.relevantcodes.extentreports.ExtentTest@642857e0]
+INFO    2016-10-13 00:01:34,606  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-13 00:01:34,708  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-13 00:01:36,986  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-13 00:01:40,536  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-13 00:02:04,376  - Child test appended [com.relevantcodes.extentreports.ExtentTest@2582b0ef]
+INFO    2016-10-13 00:02:04,376  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-13 00:02:04,489  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-13 00:02:06,786  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-13 00:02:10,327  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-13 00:02:24,995  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:15 AM,      [DETAILS:] Level 25
+INFO    2016-10-13 00:02:25,153  - Child test appended [com.relevantcodes.extentreports.ExtentTest@642a16aa]
+INFO    2016-10-13 00:02:25,153  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-13 00:02:25,235  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-13 00:02:27,517  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-13 00:02:31,090  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-13 00:02:43,100  - info - [STEP:] Report Validation Entry 10/9/16 @ 11:50 AM,      [DETAILS:] Level 35
+INFO    2016-10-13 00:02:43,258  - Child test appended [com.relevantcodes.extentreports.ExtentTest@75fd65c]
+INFO    2016-10-13 00:02:43,258  - Child Test started [Iteration [3] .......validateReport]
+INFO    2016-10-13 00:02:43,341  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+INFO    2016-10-13 00:02:45,688  - info - [STEP:] Open Report Monthly,      [DETAILS:]  Report is open
+INFO    2016-10-13 00:02:49,224  - info - [STEP:] Report Validation Date,      [DETAILS:] 2016-Oct
+INFO    2016-10-13 00:03:13,110  - Child test appended [com.relevantcodes.extentreports.ExtentTest@39de9bda]
+INFO    2016-10-13 00:03:13,110  - Child Test started [Iteration [3] .......QuitApp]
+INFO    2016-10-13 00:03:14,441  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-13 00:03:14,441  - Child test appended [com.relevantcodes.extentreports.ExtentTest@3cc30dee]
+INFO    2016-10-13 00:03:14,442  - Test Ended !!com.relevantcodes.extentreports.ExtentTest@7d528cf7
+INFO    2016-10-13 00:03:14,443  - Extent reporter test started [LV_TC05_MonthToDateReport]  Disscription [Month to Date report]
+INFO    2016-10-13 00:03:14,443  - Authour Assigned
+INFO    2016-10-13 00:03:14,443  - Moudle is assigne LoginValidation
+INFO    2016-10-13 00:03:14,444  - Child Test started [Iteration [1] .......LaunchBrowser]
+INFO    2016-10-13 00:03:18,713  - Chrome Browser launched
+INFO    2016-10-13 00:03:18,713  - info - [STEP:] Launch Browser,      [DETAILS:] Chrome is launched with all desired capabilities
+INFO    2016-10-13 00:03:18,714  - Child test appended [com.relevantcodes.extentreports.ExtentTest@66fb45e5]
+INFO    2016-10-13 00:03:18,714  - Child Test started [Iteration [1] .......LaunchAndLogin]
+INFO    2016-10-13 00:03:22,889  - info - [STEP:] Launch URL,      [DETAILS:] https://damp-sands-8561.herokuapp.com/users/sign_in Launched successfully
+INFO    2016-10-13 00:03:26,020  - Child test appended [com.relevantcodes.extentreports.ExtentTest@1378eea2]
+INFO    2016-10-13 00:03:26,021  - Child Test started [Iteration [1] .......validateReport]
+INFO    2016-10-13 00:03:26,126  - info - [STEP:] Sidebar Item Selection,      [DETAILS:]     [Reports] is CLICKED
+ERROR   2016-10-13 00:03:28,743  - [STEP:] Month to Date,      [DETAILS:] NOT FOUND<a href='C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Thu_Oct_13_00_03_28_IST_2016.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\Brijendra Singh\Documents\GitHub\BPS_Sweety_Test\Results\Run_Wed_Oct_12_23_39_33_IST_2016\Screenshots\Thu_Oct_13_00_03_28_IST_2016.png' /></a>
+INFO    2016-10-13 00:03:28,743  - Child test appended [com.relevantcodes.extentreports.ExtentTest@4215e133]
+INFO    2016-10-13 00:03:28,743  - Child Test started [Iteration [1] .......QuitApp]
+INFO    2016-10-13 00:03:30,849  - info - [STEP:] Close Browser,      [DETAILS:] Done
+INFO    2016-10-13 00:03:30,850  - Child test appended [com.relevantcodes.extentreports.ExtentTest@259b85d6]
+INFO    2016-10-13 00:03:30,850  - Test Ended !!com.relevantcodes.extentreports.ExtentTest@48eaf42f
+INFO    2016-10-13 00:03:31,722  - Report FLUSHED !!!!
+INFO    2016-10-13 00:03:31,722  - %%%%%%%%%%%%%     All applicable Modules are executed       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
