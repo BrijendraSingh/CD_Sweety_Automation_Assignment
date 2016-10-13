@@ -34,10 +34,7 @@ public class Keywords {
 	
 	//@@ Page Class declaration
 	static Sweety_LoginPage sweetyLoginPage;
-	
-	//@@ Major tables
-	static WebElement rEntryTbl, ReportsTbl;
-	
+		
 	//@@ Constructor to set the page classes constructor and webdriver
 	public Keywords(WebDriver ldriver) {
 		driver=ldriver;
@@ -73,16 +70,19 @@ public class Keywords {
 	 * -----------------------------------------------------------------------------------------------------
 	 */
 	public static void LaunchUrl(){
-		String url   = BRIJ_ExcelUtil.BPS_GetTestData("App_URL");
+		String url   	 = BRIJ_ExcelUtil.BPS_GetTestData("App_URL");
+		String browser   = BRIJ_ExcelUtil.BPS_GetTestData("Browser_Name");
 		driver.navigate().to(url);
 		
-		try {
-			Robot robot = new Robot();
-			robot.keyPress(KeyEvent.VK_ESCAPE);
-			robot.keyRelease(KeyEvent.VK_ESCAPE);
-		} catch (AWTException e) {
-			e.printStackTrace();
-			System.out.println("error with robot class " + e.getMessage());
+		if (browser.toString().equalsIgnoreCase("chrome")){
+			try {
+				Robot robot = new Robot();
+				robot.keyPress(KeyEvent.VK_ESCAPE);
+				robot.keyRelease(KeyEvent.VK_ESCAPE);
+			} catch (AWTException e) {
+				e.printStackTrace();
+				System.out.println("error with robot class " + e.getMessage());
+			}
 		}
 		
 		if (driver.getTitle().toString().length()>1){
@@ -165,7 +165,7 @@ public class Keywords {
 		
 		BRIJ_Reporter.logINFO("Date to delete is ", dateNtime + " , Value " +Value );
 		
-		System.out.println("FUNCTION ** delete_RecentEntries_LevelPage \n");
+		//System.out.println("FUNCTION ** delete_RecentEntries_LevelPage \n");
 		clickSideBarLink("Levels");
 		boolean flgDataFound;
 		List<WebElement> headerPanel_db,reportLink;
@@ -174,7 +174,7 @@ public class Keywords {
 			if (ele.getText().contains("Recent Entries")){
 				reportLink=ele.findElement(By.xpath("..")).findElement(By.xpath("..")).findElements(By.tagName("table"));		
 				if (reportLink.size()>0 && reportLink!=null){
-					System.out.println("Recent Entries, Table data is displayed below");
+					//System.out.println("Recent Entries, Table data is displayed below");
 					flgDataFound=deleteLevelEntries(reportLink.get(0),dateNtime,Value);				
 					if (Value.equals("") && dateNtime.length()<=8 && flgDataFound){
 						delete_RecentEntries_LevelPage();
@@ -182,7 +182,7 @@ public class Keywords {
 						break;
 					}
 				}else{
-					System.out.println("Recent Entries {Data not avaialble}");
+					//System.out.println("Recent Entries {Data not avaialble}");
 					BRIJ_Reporter.logFAIL("Recent Entries Data", "Data is NOT Available");
 				}
 			}			
@@ -199,14 +199,14 @@ public class Keywords {
 	 * -----------------------------------------------------------------------------------------------------
 	 */
 	public static boolean deleteLevelEntries(WebElement levelTbl,String dateNtime, String Level){
-		System.out.println("FUNCTION ** deleteLevelEntries \n");
+		//System.out.println("FUNCTION ** deleteLevelEntries \n");
 		boolean deleteRow=false;
 		List<WebElement> rows=levelTbl.findElements(By.tagName("tr"));
 
 		if(rows.size()>0){
 			for (int crow=1; crow<=rows.size()-1;crow++){
 				String rowVal=rows.get(crow).getText();
-				System.out.println("\n check delete check 3 \n" + rowVal);
+				//System.out.println("\n check delete check 3 \n" + rowVal);
 				if (Level.equals("") && rowVal.contains(dateNtime)){
 					//Delete row
 					deleteRow=true;
@@ -219,28 +219,28 @@ public class Keywords {
 			
 				if (deleteRow){
 					rows.get(crow).findElement(By.linkText("Delete")).click();
-					putWAIT(1500);
+					putWAIT(500);
 					try{
 						if(wait.until(ExpectedConditions.alertIsPresent())==null){
-							System.out.println("\n alert is not present");
+							//System.out.println("\n alert is not present");
 							BRIJ_Reporter.logFAIL("Delete Alert Message", "Alert Message is NOT Displayed");
 						}else{
 							 Alert alert=driver.switchTo().alert();
 							 if (alert.getText().equalsIgnoreCase("Are you sure?")){
 								 alert.accept();
-								 System.out.println(dateNtime + ", " + Level + " mg/dl: is deleted "  );
+								 //System.out.println(dateNtime + ", " + Level + " mg/dl: is deleted "  );
 								 BRIJ_Reporter.logPASS("Delete Entry for " + dateNtime, Level + ", Entry Deleted");
 								 break;
 							 }else{
-								 System.out.println("Proper alert message is not displayed");
+								 //System.out.println("Proper alert message is not displayed");
 								 BRIJ_Reporter.logFAIL("Delete Alert Message", "Expected Alert Message is NOT Displayed");
 								 alert.accept();
 								 break;
 							 }
 						}
 					}catch(NoAlertPresentException e){
-						System.out.println("Alert exception");
-						 BRIJ_Reporter.logFAIL("Delete Alert Message", "Exception at alert " + e.getMessage());
+						//System.out.println("Alert exception");
+						BRIJ_Reporter.logFAIL("Delete Alert Message", "Exception at alert " + e.getMessage());
 					}
 					
 				}
@@ -266,7 +266,7 @@ public class Keywords {
 		levelData	=BRIJ_ExcelUtil.BPS_GetTestData("BooldGlucoseData");
 		check		=BRIJ_ExcelUtil.BPS_GetTestData("error_BooldGlucoseData");
 		
-		System.out.println("FUNCTION ** addNewEntry \n ");
+		//System.out.println("FUNCTION ** addNewEntry \n ");
 		boolean btFound=false;
 		clickSideBarLink("Levels");
 		List<WebElement> addNewBtn =sweetyLoginPage.addNewBtn;//driver.findElements(By.linkText("Add new"));
@@ -391,7 +391,7 @@ public class Keywords {
 		WebElement sideLink = driver.findElement(By.linkText(linkName));
 		sideLink.click();
 		BRIJ_Reporter.logINFO("Sidebar Item Selection", "    ["+linkName + "] is CLICKED");
-		System.out.println("SideBar link [" + linkName + "] is clicked");
+		//System.out.println("SideBar link [" + linkName + "] is clicked");
 		putWAIT(2000);
 	}
 	
@@ -415,17 +415,17 @@ public class Keywords {
 		
 		List<WebElement> headerPanel_db=null;
 		
-		System.out.println(" check ppoint 1");
+		//System.out.println(" check ppoint 1");
 		for (int loop=0;loop<20;loop++){
 			try{
 				headerPanel_db=sweetyLoginPage.panelHeading;//driver.findElements(By.tagName("h3"));
 				break;
 			}catch(StaleElementReferenceException e){
-				System.out.println("\n stale exception detected " + e.getLocalizedMessage() + "\n trying again \n");
+				//System.out.println("\n stale exception detected " + e.getLocalizedMessage() + "\n trying again \n");
 				putWAIT(200);
 			}
 		}
-		System.out.println(" check ppoint 2");
+		//System.out.println(" check ppoint 2");
 		List<WebElement> ReportsTbl=null;
 		if (headerPanel_db!=null && headerPanel_db.size()>0){
 			for(WebElement ele:headerPanel_db){
@@ -435,14 +435,14 @@ public class Keywords {
 							ReportsTbl=ele.findElement(By.xpath("..")).findElement(By.xpath("..")).findElements(By.tagName("table"));
 							break;
 						}catch(StaleElementReferenceException e){
-							System.out.println("\n stale exception detected " + e.getLocalizedMessage() + "\n trying again \n");
+							//System.out.println("\n stale exception detected " + e.getLocalizedMessage() + "\n trying again \n");
 							putWAIT(200);
 						}
 					}
 					if (ReportsTbl.size()>0 && ReportsTbl!=null){
 						validateRecentEntriesData(ReportsTbl.get(0),dateNtime,Level);
 					}else{
-						System.out.println("Recent Entries data is not available");
+						//System.out.println("Recent Entries data is not available");
 						BRIJ_Reporter.logFAIL("Recent Entries Table", "Table Not FOUND");
 					}	
 					break;
@@ -469,14 +469,14 @@ public class Keywords {
 		for (int crow=0; crow<=rows.size()-1;crow++){
 			rowVal = rows.get(crow).getText();
 			if (rowVal.contains(dateNtime + " " + Level)){
-				System.out.println("Validated: " + dateNtime + " " + Level);
+				//System.out.println("Validated: " + dateNtime + " " + Level);
 				BRIJ_Reporter.logPASS("Recent Entry Validated: " + dateNtime,  " Level Value " + Level);
 				flgFound=true;
 				break;
 			}	
 		}
 		if (!flgFound){
-			System.out.println("Not Validated: Expected" + dateNtime + " " + Level + " , Actual: " + rowVal);
+			//System.out.println("Not Validated: Expected" + dateNtime + " " + Level + " , Actual: " + rowVal);
 			BRIJ_Reporter.logFAIL("Recent Entry Not Validated: Expected " + dateNtime + " " + Level , "Please Investigate");
 		}
 	}
@@ -552,7 +552,7 @@ public class Keywords {
 						//System.out.println(ele.getText() + ", Table data is displayed below");
 						validateReportData(reportLink.get(0),dateToVal,entriesTime,bgLevel,minToVal,maxToVal,avgToVal);
 					}else{
-						System.out.println(ele.getText() + " {Data not avaialble}");
+						//System.out.println(ele.getText() + " {Data not avaialble}");
 						BRIJ_Reporter.logFATAL(ele.getText() + " Verification", "Data is not Available");;
 					}
 					flagReportFound=true;
@@ -685,7 +685,7 @@ public class Keywords {
 					for (WebElement list : ReportTypeList){					
 						if(list.getText().equalsIgnoreCase(reportType)){
 							list.click();
-							System.out.println(reportType + " is CLICKED");
+							//System.out.println(reportType + " is CLICKED");
 							BRIJ_Reporter.logINFO("Open Report "+ reportType, " Report is open");
 							putWAIT(2000);
 							flg=true;
@@ -733,7 +733,7 @@ public class Keywords {
 					for(WebElement link: reportLink){
 						if (link.getText().equalsIgnoreCase(reportLinkName)){
 							link.click();
-							System.out.println(reportLinkName + " LINK clicked on Welcome to sweety page");
+							//System.out.println(reportLinkName + " LINK clicked on Welcome to sweety page");
 							BRIJ_Reporter.logINFO("click on view Report link", "LINK clicked on Welcome to sweety page");
 							putWAIT(3000);
 							flg=true;
